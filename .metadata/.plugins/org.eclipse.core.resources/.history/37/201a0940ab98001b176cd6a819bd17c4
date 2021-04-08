@@ -1,0 +1,22 @@
+package modelo;
+
+public class Mascota {
+	
+	private String raza;
+	private String nombre;
+	
+	public Mascota() {
+		
+	}
+
+	public Mascota(String raza, String nombre) {
+		
+		this.raza = raza;
+		this.nombre = nombre;
+	}
+	
+	
+	
+	
+
+}

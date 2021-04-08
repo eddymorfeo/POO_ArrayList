@@ -1,0 +1,33 @@
+package Main;
+
+import modelo.Mascota;
+import modelo.Persona;
+import modelo.Raza;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Persona persona1 = new Persona();
+		persona1.setId(2);
+		persona1.setNombre("Edward");
+		persona1.setSexo('I');
+		
+		Raza raza1 = new Raza("Gato");
+		Mascota mascota1 = new Mascota(raza1, "Misufu");
+		persona1.setMascota(mascota1);
+		
+		
+		
+		
+		System.out.println(persona1.getMascota().getRaza());
+		
+		
+		Raza raza2 = new Raza("Kiltro");
+		Mascota mascota2 = new Mascota(raza2, "Espayk");
+		Persona persona2 = new Persona(10, "Carlos",'m', mascota2 );
+		System.out.println(persona2);
+	}
+
+}

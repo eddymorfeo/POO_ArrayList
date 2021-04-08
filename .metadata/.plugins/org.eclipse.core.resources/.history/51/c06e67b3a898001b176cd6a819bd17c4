@@ -1,0 +1,9 @@
+package modelo;
+
+public interface Ipersona {
+	
+	public void Comer();
+	public void Dormir();
+	
+
+}

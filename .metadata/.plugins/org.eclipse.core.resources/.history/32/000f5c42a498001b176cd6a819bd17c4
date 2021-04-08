@@ -1,0 +1,40 @@
+package modelo;
+
+public class Persona {
+
+	private int id;
+	private String nombre;
+	private char sexo;
+	
+	public Persona() {
+		
+	}
+	
+	public Persona( int id, String nombre, char sexo) {
+		this.id=id;
+		this.nombre= nombre;
+		this.sexo=sexo;
+				
+	}
+	//Geter y settr siempre son de los atributos de la clase
+	
+	public int getId(){
+		return this.id;
+	}
+	//void no retorna nada en los setter
+	public void setId(int id) {
+		this.id=id;
+	}
+	
+	
+	public String getNombre() {
+		return this.nombre;
+	}
+	
+	public void setnombre(String nombre) {
+		this.nombre=nombre;
+		
+	}
+	
+	//nivelacceso-->datoqueretorna-->nombrecreado(){}
+}

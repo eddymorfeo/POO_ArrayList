@@ -1,0 +1,27 @@
+package modelo;
+
+import java.util.ArrayList;
+
+public class ListaPersonas {
+	
+	private ArrayList<Persona> lista= new ArrayList<Persona>();
+	
+	public void agregarPersona(Persona persona) {
+		lista.add(persona);
+	}
+	
+	public void eliminarPersona(int id) {
+		lista.remove(id);
+	}
+	
+	public void actualizarPersona(int id, Persona persona) {
+		lista.set(id, persona);
+	}
+	
+	public ArrayList<Persona> listarPersona(){
+		return null;
+		
+	}
+	
+
+}

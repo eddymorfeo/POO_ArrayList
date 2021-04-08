@@ -1,0 +1,60 @@
+package modelo;
+
+public class Persona implements Ipersona{
+
+	private int id;
+	private String nombre;
+	private char sexo;
+	
+	public Persona() {
+		
+	}
+	
+	public Persona(int id, String nombre, char sexo) {
+		this.id = id;
+		this.nombre = nombre;
+		this.sexo = sexo;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public char getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(char sexo) {
+		this.sexo = sexo;
+	}
+
+	@Override
+	public String toString() {
+		return "Persona [id=" + id + ", nombre=" + nombre + ", sexo=" + sexo + "]";
+	}
+
+	public void Comer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public String Dormir() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+		
+	}

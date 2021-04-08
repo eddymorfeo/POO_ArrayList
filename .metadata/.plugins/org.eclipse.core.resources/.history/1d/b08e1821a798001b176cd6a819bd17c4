@@ -1,0 +1,22 @@
+package Main;
+
+import modelo.Persona;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Persona persona1 = new Persona();
+		
+		//System.out.println(persona1.getId());
+		persona1.setnombre("Edward");
+		System.out.println(persona1.getNombre());
+		
+		
+		
+		
+		Persona persona2 = new Persona(10, "Carlos",'m');
+		System.out.println(persona2.getId());
+	}
+
+}
